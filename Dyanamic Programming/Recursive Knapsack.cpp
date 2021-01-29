@@ -16,10 +16,10 @@ int knapsack(int val[], int wt[], int W, int n)
 
 int main()
 {
-    int val[] = {1, 2, 4, 5, 6, 8};
-    int wt[] = {1, 2, 3, 5, 6, 7};
-
-    int W = 7;
+    int val[] = {1, 2, 4, 5, 4, 8};
+    int wt[] = {1, 2, 3, 5, 6, 7}; 
+    
+    int W = 6;
     
     cout << knapsack(val, wt, W, 6);
 }
