@@ -40,7 +40,8 @@ int minimumSubsetDifference(int arr[], int n)
 
 int main()
 {
-    int arr[] = {1, 2, 7};
-
+    int n = 6;
+    int arr[] = {1, 2, 8, 10, 12, 14};
+    sort(arr, arr + n);
     cout << minimumSubsetDifference(arr, 3);
 }
