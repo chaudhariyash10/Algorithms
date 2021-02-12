@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+//Rod Cutting Problem is exactly the same as Unbouunded knapsack.
 
 //n < 1000 && w < 1000
 int dp[1001][1001];
