@@ -18,7 +18,7 @@ int LCS(string a, string b)
     {
         for (int j = 1; j < l2 + 1; j++)
         {
-            if (a[i-1] == b[j-1])
+            if (a[i - 1] == b[j - 1])
                 dp[i][j] = 1 + dp[i - 1][j - 1];
 
             else
