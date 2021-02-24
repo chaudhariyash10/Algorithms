@@ -41,7 +41,8 @@ string printLCS(string s1, string s2)
     {
         if (s1[i - 1] == s2[j - 1])
         {
-            ans.push_back(s1[i - 1]);
+            // ans.push_back(s1[i - 1]);
+            ans = s1[i - 1] + ans;
             i--, j--;
         }
 
@@ -53,7 +54,7 @@ string printLCS(string s1, string s2)
         // cout << i << " " << j << s1[i] << " " << s2[j] << endl;
     }
 
-    reverse(ans.begin(), ans.end());
+    // reverse(ans.begin(), ans.end());
     return ans;
 }
 
